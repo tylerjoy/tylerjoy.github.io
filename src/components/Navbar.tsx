@@ -1,6 +1,13 @@
 import React from "react";
 import styled from "styled-components";
 import { Link } from "gatsby";
+import Search from "./Search";
+
+const SearchField = styled(Search)`
+  color: #fff;
+  margin-right: 1rem;
+  text-decoration: none;
+`;
 
 //parent container with flex property to allow left placement of search field, and right placement of nav elements.
 const NavContainerParent = styled.nav`
@@ -38,9 +45,11 @@ const SearchLink = styled(Link)`
   text-decoration: none;
 `;
 
-const SearchInput = styled.input`
+const SearchInput = styled(Search)`
   type: text;
   placeholder: "Search documents";
+  onChange=
+
 `;
 
 const Navbar: React.FC = () => {
