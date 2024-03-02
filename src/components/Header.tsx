@@ -10,7 +10,7 @@ const HeaderContainer = styled.header`
 const Header: React.FC = () => {
   return (
     <HeaderContainer>
-      <h1>My Gatsby Site</h1>
+      <h1>Document Search Site</h1>
     </HeaderContainer>
   );
 };

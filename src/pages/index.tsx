@@ -13,7 +13,7 @@ const IndexPage: React.FC = () => {
       <main>
         <h1>Welcome to Ideal Broccoli!</h1>
         <p>This is the home page.</p>
-        <Link to="/about">Go to About</Link>
+        <Link to="/documents">Go to About</Link>
       </main>
       <Footer />
     </Layout>

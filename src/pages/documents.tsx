@@ -5,14 +5,16 @@ import Header from "../components/Header";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
-const AboutPage: React.FC = () => {
+const DocumentsPage: React.FC = () => {
   return (
     <Layout>
       <Header />
       <Navbar />
       <main>
         <h1>Welcome to Ideal Broccoli!</h1>
-        <p>This is the about page.</p>
+        <p>
+          This is the document hub page, raw versions of PDFs will live here.
+        </p>
         <Link to="/about">Go to About</Link>
       </main>
       <Footer />
@@ -20,4 +22,4 @@ const AboutPage: React.FC = () => {
   );
 };
 
-export default AboutPage;
+export default DocumentsPage;
