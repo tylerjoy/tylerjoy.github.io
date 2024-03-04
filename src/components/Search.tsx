@@ -41,7 +41,7 @@ const SearchComponent: React.FC = () => {
 
   return (
     <div>
-      <h1>Real-Time Search with Fuse.js in React</h1>
+      <h1>Search Docs</h1>
       <input
         type="text"
         placeholder="Search by name or email"
